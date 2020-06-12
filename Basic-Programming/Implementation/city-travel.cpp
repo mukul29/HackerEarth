@@ -44,7 +44,7 @@ int main() {
         int daysBetween = it->first - (prevException + 1);
 
         if(remainingDistance <= (long long)X * daysBetween) {
-            days += (int)(ceil)((float)remainingDistance / X);
+            days += (int)(ceil((float)remainingDistance / X));
             remainingDistance = 0;
             break;
         }
