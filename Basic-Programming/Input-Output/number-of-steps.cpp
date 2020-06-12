@@ -49,7 +49,7 @@ int main() {
             if (difference % b[i] == 0) {
                 steps = difference / b[i];
             } else {
-                steps = (int)( (ceil)( (float) difference / b[i] ) );
+                steps = (int)( ceil(((float) difference / b[i])) );
                 min = a[i];
             }
 
